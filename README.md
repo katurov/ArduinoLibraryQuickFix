@@ -23,7 +23,7 @@ How to "download" files from cloud to the disk and make 'em files again:
 cd ~/Documents/Arduino/libraries
 find . -type f -name "*.icloud" -exec brctl download {} \;
 ```
-this will dounload 'em all. Make sure they are by searching ```find . -type f -name "*.icloud"``` the list have to be empty.
+this will download 'em all. Make sure they are by searching ```find . -type f -name "*.icloud"``` the list have to be empty.
 
 Now find and delete:
 ```
